@@ -18,8 +18,8 @@
   color: var(--color-text);
   border-radius: 32px;
   box-shadow: 0 16px 16px rgba(0, 0, 0, 0.26);
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   overflow: auto;
   position: relative;
 }

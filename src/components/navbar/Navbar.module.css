@@ -69,11 +69,11 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(1, 2, 45);
+    background: rgb(77, 25, 77);
     background: linear-gradient(
       0deg,
-      rgba(1, 25, 103, 0.2) 0%,
-      rgb(0, 18, 89) 50%
+      rgba(77, 25, 77, 0.2) 0%,
+      rgba(77, 25, 77, 1) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
