@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "name": "Passeio no Coliseu",
+      "cardPicture": "coliseu.jpeg",
+      "cardDescription": "R$ 50,00",
+      "icon": "coliseu.jpeg",
+      "about": "Descricao do presente",
+      "aboutPicture": "coliseu.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Outro presente",
+      "cardPicture": "coliseu.jpeg",
+      "cardDescription": "R$ 100,00",
+      "icon": "coliseu.jpeg",
+      "about": "Descricao do presente",
+      "aboutPicture": "coliseu.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "presente qualquer",
+      "cardPicture": "coliseu.jpeg",
+      "cardDescription": "R$ 20,00",
+      "icon": "coliseu.jpeg",
+      "about": "Descricao do presente",
+      "aboutPicture": "coliseu.jpeg"
+    }
+]
