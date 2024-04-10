@@ -2,12 +2,14 @@
     {
       "type": "Celebração religiosa",
       "startDate": "19:00",
-      "address": "Paróquia São José e Santa Felicidade - Av. Manoel Ribas, 6252, Santa Felicidade, Curitiba - PR"
+      "address": "- Av. Manoel Ribas, 6252, Santa Felicidade, Curitiba - PR",
+      "venue": "Paróquia São José e Santa Felicidade"
     },
     {
       "type": "Recepção",
       "startDate": "após a celebração",
-      "address": "Ristorante Siciliano - Av. Manoel Ribas, 5734, Santa Felicidade, Curitiba - PR"
+      "address": "- Av. Manoel Ribas, 5734, Santa Felicidade, Curitiba - PR",
+      "venue": "Ristorante Siciliano"
     },
     {
       "type": "Traje",

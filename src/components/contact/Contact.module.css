@@ -15,20 +15,24 @@
 }
 
 .subtitle {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 4px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .text h2 {
   font-size: 56px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 4px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .text p {
   font-size: 32px;
   font-weight: 400;
   letter-spacing: 2px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .links {
@@ -36,23 +40,23 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 24px;
-  width: 10%;
+  width: 30px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 10px;
   padding-top: 15px;
 }
 
-.link a {
+.link p {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 @media screen and (max-width: 830px) {
@@ -64,13 +68,16 @@
   .text {
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat-Light", sans-serif;
   }
 
   .text p {
     font-size: 24px;
+    font-family: "Montserrat-Light", sans-serif;
   }
 
   .link a {
     font-size: 18px;
+    font-family: "Montserrat-Light", sans-serif;
   }
 }

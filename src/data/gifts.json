@@ -1,9 +1,19 @@
 [
     {
-      "id": 1,
+      "id": 4,
+      "name": "Não sei escolher presente",
+      "cardPicture": "coliseu.jpeg",
+      "cardDescription": "R$ 50,00",
+      "icon": "coliseu.jpeg",
+      "value": 50.00,
+      "about": "Descricao do presente",
+      "aboutPicture": "coliseu.jpeg"
+    },
+    {
+      "id": 3,
       "name": "Passeio no Coliseu",
       "cardPicture": "coliseu.jpeg",
-      "cardDescription": "R$ 00,01",
+      "cardDescription": "R$ 0,01",
       "value": 0.01,
       "icon": "coliseu.jpeg",
       "about": "Descricao do presente",
@@ -11,21 +21,21 @@
     },
     {
       "id": 2,
-      "name": "Outro presente",
+      "name": "Perguntar se pode levar o primo do amigo do seu tio no casamento",
       "cardPicture": "coliseu.jpeg",
-      "cardDescription": "R$ 0,02",
+      "cardDescription": "R$ 2034,00",
       "icon": "coliseu.jpeg",
-      "value": 0.02,
+      "value": 2034.00,
       "about": "Descricao do presente",
       "aboutPicture": "coliseu.jpeg"
     },
     {
-      "id": 3,
-      "name": "presente qualquer",
+      "id": 1,
+      "name": "Presente teste",
       "cardPicture": "coliseu.jpeg",
-      "cardDescription": "R$ 0,03",
+      "cardDescription": "R$ 0,01",
       "icon": "coliseu.jpeg",
-      "value": 0.03,
+      "value": 0.01,
       "about": "Descricao do presente",
       "aboutPicture": "coliseu.jpeg"
     }

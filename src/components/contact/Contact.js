@@ -9,7 +9,7 @@ export const Contact = () => {
         <footer id="contact" className={styles.container}>
             <div className={styles.text}>
                 <h2>RSVP</h2>
-                <h4 className={styles.subtitle}>Confirmar presença diretamente com os noivos até 30/07</h4>
+                <h4 className={styles.subtitle}>Por gentileza, confirmar presença diretamente com os noivos até 30/07</h4>
             </div>
             <ul className={StyleSheet.links}>
                 <li className={styles.link}>

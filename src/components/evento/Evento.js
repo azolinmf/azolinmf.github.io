@@ -13,9 +13,8 @@ export const Evento = () => {
                     <p className={styles.eventoItemDate}>
                         {`${eventoItem.startDate}`}
                     </p>
-                    {/* Colocar o dress code aqui */}
-                    <p className={styles.eventoItemAddress} >
-                        {eventoItem.address}
+                    <p className={styles.eventoItemAddress}>
+                        {eventoItem.venue} {eventoItem.address}
                     </p>
                 </li>
                 )}

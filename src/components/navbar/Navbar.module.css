@@ -17,7 +17,8 @@
 
 .title {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: "Montserrat-Light";
   text-decoration: none;
   color: var(--color-text);
 }
@@ -37,8 +38,10 @@
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 100;
   color: var(--color-text);
+  font-family: "Montserrat-Light";
   text-decoration: none;
 }
 
@@ -61,6 +64,12 @@
   .menuBtn {
     display: block;
     cursor: pointer;
+  }
+
+  .openSansMenu {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
   }
 
   .menuItems {

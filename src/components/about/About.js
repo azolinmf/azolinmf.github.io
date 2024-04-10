@@ -12,13 +12,19 @@ export const About = () => {
                     className={styles.aboutImage} 
                 />
                 <ul className={styles.aboutItems}>
+                <p className={styles.phrase} >"O amor humano, o amor aqui embaixo na terra, quando verdadeiro, nos ajuda a saborear o amor divino."</p>
                     <li className={styles.aboutItem}>
-                       
                         <div className={styles.aboutItemText}>
-                            <h3>Titulo genérico</h3>
-                            <p>
-                                Mensagem bonita falando que esperamos a presença de todos sei lá algo assim
-                            </p>
+        
+                            <div>
+                                <h3>Queridos amigos e familiares,</h3>
+                                <p>
+                                    É uma alegria imensa poder celebrar o momento mais importante de nossas vidas com pessoas que fazem parte de nossa história. 
+                                </p>
+                                <p>
+                                    Esperamos vocês!
+                                </p>
+                            </div>
                         </div>
                     </li>
                     

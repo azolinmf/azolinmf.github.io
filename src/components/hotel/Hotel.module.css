@@ -16,35 +16,41 @@
 
 .hotelName {
   font-weight: bold;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .hotelComplement {
   font-style: italic;
   padding-left: 6px;
   margin-top: 6px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .pricesInfo {
   display: flex;
   margin-top: 10px;
   font-size: 20px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .pricesDescription {
   padding-right: 4px;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 16px;
 }
 
 .pricesValue {
   font-style: italic;
   font-size: 16px;
   padding-left: 4px;
-  margin-top: 3px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .title {
   color: var(--color-text);
   font-size: 35px;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: "Montserrat-Light", sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -53,8 +59,8 @@
   color: var(--color-text);
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: 1.5px;
   padding-top: 10px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .content {
@@ -84,21 +90,25 @@
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 8px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .name {
   font-size: 16px;
   margin-top: 2px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .telefone {
   font-size: 16px;
   margin-top: 10px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .valores {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 26px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .price {

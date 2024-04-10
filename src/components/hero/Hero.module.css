@@ -20,10 +20,10 @@
 }
 
 .title {
-  font-size: 72px;
-  font-weight: 900;
+  font-size: 50px;
+  font-weight: 200;
   margin-bottom: 33px;
-  font-family: var(--font-roboto);
+  font-family: "Montserrat-Light";
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 70%,
@@ -35,7 +35,7 @@
 
 .description {
   font-size: 30px;
-  font-family: var(--font-roboto);
+  font-family: "Montserrat-Light";
   margin-bottom: 52px;
 }
 
