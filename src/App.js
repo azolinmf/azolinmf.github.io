@@ -30,8 +30,8 @@ function App() {
             <Hero />
             <About />
             <Evento />
-            <Hotel />
             <Gifts gifts={gifts} onGiftClick={handleGiftClick} />
+            <Hotel />
             <Contact />
             {showPopup && (
                 <GiftDetails gift={selectedGift} onClose={handleClosePopup} />

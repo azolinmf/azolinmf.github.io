@@ -10,6 +10,37 @@
   z-index: 1;
 }
 
+.hotelInfo {
+  display: flex;
+}
+
+.hotelName {
+  font-weight: bold;
+}
+
+.hotelComplement {
+  font-style: italic;
+  padding-left: 6px;
+  margin-top: 6px;
+}
+
+.pricesInfo {
+  display: flex;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.pricesDescription {
+  padding-right: 4px;
+}
+
+.pricesValue {
+  font-style: italic;
+  font-size: 16px;
+  padding-left: 4px;
+  margin-top: 3px;
+}
+
 .title {
   color: var(--color-text);
   font-size: 35px;
@@ -56,13 +87,28 @@
 }
 
 .name {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.telefone {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.valores {
   font-size: 20px;
-  margin-top: 16px;
+  margin-top: 26px;
 }
 
 .price {
   font-size: 16px;
   margin-top: 16px;
+}
+
+.prices {
+  font-size: 16px;
+  margin-left: 16px;
 }
 
 @media screen and (max-width: 830px) {
