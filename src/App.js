@@ -9,6 +9,7 @@ import { Gifts } from './components/gifts/Gifts';
 import { GiftDetails } from './components/giftDetails/GiftDetails';
 import { Contact } from './components/contact/Contact';
 import gifts from "./data/gifts.json";
+import './index.css'
 
 function App() {
     const [showPopup, setShowPopup] = useState(false);
