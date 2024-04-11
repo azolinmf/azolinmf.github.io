@@ -12,10 +12,9 @@ export const GiftDetails = ({ gift, onClose }) => {
         async function generateDynamicPix() {
             const qrCodePix = QrCodePix({
                 version: '01',
-                key: '+5541998358181', //or any PIX key
+                key: '+5541998358181',
                 name: 'Maria Fernanda Azolin',
                 city: 'CURITIBA',
-                message: 'Pagamento PIX',
                 cep: '82320120',
                 value: gift.value,
             });
@@ -51,27 +50,25 @@ export const GiftDetails = ({ gift, onClose }) => {
                                 className={styles.icon}
                             />
                         }
-                        <h2>{gift.name}</h2>
-                    </div>
-                    <div>
-                        <h4> R$ {gift.value}</h4>
+                        <div className={styles.giftValue}>
+                            <h3 className={styles.giftValue}>{gift.name}</h3>
+                            <p className={styles.giftValue}> R$ {gift.value}</p>
+                        </div>
                     </div>
 
-                    <div className={styles.development}>
-                        <h3>Fazer o PIX</h3>
-                        <p> Valor do PIX??</p>
+                    <div className={styles.instructions}>
+                        <p className={styles.instructions}>Para realizar o pagamento, escaneie o QR code com seu app do banco, ou copie o código:</p>
 
-                        <img src={qrCode} alt={'QR Code PIX'}/>
-                        <p
-                            style={{
-                                maxWidth: '480px',
-                                margin: '0 auto',
-                                whiteSpace: 'nowrap',
-                                overflow: 'auto'
-                            }}
-                        >
+                        <div className={styles.qrCodeContainer}>
+                            <img src={qrCode} alt={'QR Code PIX'} className={styles.qrCode}/>
+                        </div>
+                    
+                        <div className={styles.rawPixContainer}>
+                           <p className={styles.rawPix}>
                             {rawPix}
-                        </p>
+                           </p> 
+                        </div>
+                            
                     </div>
                 </div>
 

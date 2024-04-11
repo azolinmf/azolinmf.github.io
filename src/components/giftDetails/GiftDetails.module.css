@@ -19,7 +19,7 @@
   border-radius: 32px;
   box-shadow: 0 16px 16px rgba(0, 0, 0, 0.26);
   width: 80%;
-  height: 80%;
+  height: 90%;
   overflow: auto;
   position: relative;
 }
@@ -36,14 +36,14 @@
   justify-content: flex-end;
   align-items: flex-end;
   width: 100%;
-  padding: 24px;
+  padding: 30px;
   z-index: 200;
   cursor: pointer;
 }
 
 .popupContent {
   position: relative;
-  padding: 76px;
+  padding: 30px;
 }
 
 .title {
@@ -53,24 +53,19 @@
   align-items: center;
   margin-top: 16px;
   margin-bottom: 16px;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .icon {
   border-radius: 8px;
   margin-right: 16px;
-  width: 100px;
+  width: 150px;
 }
 
 .title h2 {
-  font-size: 70px;
-  font-weight: 600;
-  letter-spacing: 1.2px;
-  text-transform: uppercase;
-}
-
-.dates {
-  font-size: 18px;
-  margin-bottom: 16px;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Montserrat-Light", sans-serif;
 }
 
 .aboutContainer {
@@ -79,38 +74,60 @@
   flex-direction: column;
 }
 
-.aboutContainer h3 {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  margin-bottom: 16px;
+.instructions p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat-Light", sans-serif;
+  padding-top: 30px;
+  text-align: center;
 }
 
-.aboutContent {
-  font-size: 20px;
-  margin-bottom: 16px;
+.giftValue h3 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Montserrat-Light", sans-serif;
+}
+
+.giftValue p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Montserrat-Light", sans-serif;
+  padding-top: 6px;
+}
+
+.qrCodeContainer {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 16px;
+  justify-content: center;
+  margin-top: 15px;
 }
 
-.aboutPicture {
-  width: 60%;
-  height: 60%;
-  object-fit: cover;
-  border-radius: 5px;
-  margin-bottom: 1rem;
+.qrCode {
+  max-width: 100%;
+}
+
+.rawPixContainer {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  max-width: 100%;
+}
+
+.rawPix {
+  max-width: 100%;
+  font-family: "Montserrat-Light", sans-serif;
+  text-align: center;
+  word-break: break-all;
 }
 
 @media screen and (max-width: 830px) {
   .navbar {
     padding: 10px;
   }
+
   .popupContainer {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
   }
 
   .popupContent {
@@ -121,16 +138,13 @@
     font-size: 30px;
   }
 
-  .aboutContent {
-    flex-direction: column;
+  .giftValue h3 {
+    font-size: 15px;
+    font-weight: 600;
   }
 
   .aboutPicture {
     width: 100%;
     height: 100%;
-  }
-
-  .aboutContainer h3 {
-    font-size: 24px;
   }
 }
