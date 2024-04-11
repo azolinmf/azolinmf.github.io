@@ -10,4 +10,10 @@
   /* Fonts */
   --font-roboto: "Roboto", sans-serif;
   --font-open-sans: "Open Sans", sans-serif;
+
+  @font-face {
+    font-family: "Montserrat-Light";
+    src: url("../public/fonts/Montserrat-Light.ttf") format("truetype");
+    /* Adicione outras propriedades de fonte, como font-weight e font-style, se necessário */
+  }
 }

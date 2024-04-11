@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../public/fonts/Montserrat-Light.ttf") format("truetype");
+  /* Adicione outras propriedades de fonte, como font-weight e font-style, se necessário */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
