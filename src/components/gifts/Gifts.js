@@ -7,7 +7,7 @@ export const Gifts = ({ gifts, onGiftClick }) => {
         <h2 className={styles.title}>Lista de presentes</h2>
         <h4 className={styles.description}>Caso deseje nos presentear</h4>
         <div className={styles.content}>
-            {gifts.slice().reverse().map((gift, index) => (
+            {gifts.slice().map((gift, index) => (
                 <div key={index} onClick={() => onGiftClick(gift)}>
                     <img src={require(`../../assets/gifts/cards/${gift.cardPicture}`)} 
                         alt={gift.cardPicture}
