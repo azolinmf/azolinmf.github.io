@@ -27,7 +27,7 @@ export const GiftDetails = ({ gift, onClose }) => {
         }
 
         void generateDynamicPix();
-    }, [])
+    }, [gift.value])
 
     return (
         <div className={styles.popup}>
