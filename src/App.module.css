@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 .App {
-  background-color: linear-gradient(
+  background: linear-gradient(
     90deg,
     var(--color-secondary),
     var(--color-dark)
