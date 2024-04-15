@@ -1,10 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dc4c27fe.css",
-    "main.js": "/static/js/main.a4d66f67.js",
+    "main.js": "/static/js/main.528514a9.js",
     "static/media/about.png": "/static/media/about.da66caddb03c52aee38a.png",
-    "static/media/hero.png": "/static/media/hero.49ebcbf191d085ac0a84.png",
-    "static/media/hero-2.png": "/static/media/hero-2.42dc716a94316abf428b.png",
     "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
     "static/media/raul.png": "/static/media/raul.65024b53a89a547c8be2.png",
     "static/media/shape.png": "/static/media/shape.87e750b0646ee24acafa.png",
@@ -26,21 +24,17 @@
     "static/media/mono.png": "/static/media/mono.e267cb176a5f8df02373.png",
     "static/media/alexa-noivo.png": "/static/media/alexa-noivo.8095afa425222cf43d89.png",
     "static/media/alexa-noiva.png": "/static/media/alexa-noiva.d0e9628b56f6170423fe.png",
-    "static/media/coliseu.jpeg": "/static/media/coliseu.36dc943a02acebcf2ac9.jpeg",
     "static/media/closeIcon.svg": "/static/media/closeIcon.ac00025093007dfb2471930a46d9ca1e.svg",
     "static/media/menuIcon.svg": "/static/media/menuIcon.980516fe31462e280145f3b4e3927539.svg",
-    "static/media/lua-de-mel.jpeg": "/static/media/lua-de-mel.c29b030c727080ab9a30.jpeg",
-    "static/media/visita.jpeg": "/static/media/visita.37813a815007034d25ef.jpeg",
-    "static/media/bouquet-nao.jpeg": "/static/media/bouquet-nao.a50b2e1490b8e351925c.jpeg",
     "static/media/whats-blue.svg": "/static/media/whats-blue.b44e99d9c7696ba8168dad81f3b6434b.svg",
     "static/media/whats-white.svg": "/static/media/whats-white.f8a5d4535a204a96250b7e3cdb07aa2c.svg",
     "static/media/close.svg": "/static/media/close.bad8692594235dea01c25f8c62986de6.svg",
     "index.html": "/index.html",
     "main.dc4c27fe.css.map": "/static/css/main.dc4c27fe.css.map",
-    "main.a4d66f67.js.map": "/static/js/main.a4d66f67.js.map"
+    "main.528514a9.js.map": "/static/js/main.528514a9.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4c27fe.css",
-    "static/js/main.a4d66f67.js"
+    "static/js/main.528514a9.js"
   ]
 }
