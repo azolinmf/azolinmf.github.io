@@ -45,7 +45,7 @@ export const GiftDetails = ({ gift, onClose }) => {
                         {
                             gift.icon !== "" && 
                             <img 
-                                src={require(`../../assets/gifts/icons/${gift.icon}`)} 
+                                src={require(`../../assets/gifts/cards/${gift.icon}`)} 
                                 alt={gift.icon}
                                 className={styles.icon}
                             />
