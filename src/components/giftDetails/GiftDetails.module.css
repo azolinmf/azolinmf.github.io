@@ -59,7 +59,10 @@
 .icon {
   border-radius: 8px;
   margin-right: 16px;
-  width: 150px;
+  width: 200px;
+  border-color: var(--color-text-dark);
+  border-width: 1px;
+  border-style: solid;
 }
 
 .title h2 {
@@ -83,9 +86,9 @@
 }
 
 .giftValue h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  font-family: "Montserrat-Light", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .giftValue p {
@@ -139,7 +142,7 @@
   }
 
   .giftValue h3 {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 600;
   }
 

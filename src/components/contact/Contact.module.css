@@ -7,7 +7,7 @@
   justify-content: space-evenly;
   width: 100%;
   background-color: var(--color-secondary);
-  color: var(--color-text);
+  color: #fff;
   padding: 58px 10%;
   gap: 10px;
   z-index: 2;
@@ -16,8 +16,16 @@
 
 .subtitle {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   margin-right: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.subtitle2 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 4px;
+  margin-top: 4px;
   font-family: "Montserrat-Light", sans-serif;
 }
 
@@ -52,7 +60,7 @@
 }
 
 .link p {
-  color: var(--color-text);
+  color: #fff;
   text-decoration: none;
   font-size: 15px;
   font-weight: 200;
