@@ -6,7 +6,7 @@ export const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>08 • FEV • 2025</h1>
             <p className={styles.description}>
-                Sejam bem vindos ao nosso site!
+                Sejam bem vindos ao nosso site de casamento!
             </p>
 
         </div>

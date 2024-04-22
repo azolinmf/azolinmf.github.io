@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9d030ed7.css",
-    "main.js": "/static/js/main.eb573266.js",
+    "main.js": "/static/js/main.7724567c.js",
     "static/media/about.png": "/static/media/about.da66caddb03c52aee38a.png",
     "static/media/igrej-2.png": "/static/media/igrej-2.583af9eb9c10ed98a1aa.png",
     "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
@@ -31,10 +31,10 @@
     "static/media/close.svg": "/static/media/close.bad8692594235dea01c25f8c62986de6.svg",
     "index.html": "/index.html",
     "main.9d030ed7.css.map": "/static/css/main.9d030ed7.css.map",
-    "main.eb573266.js.map": "/static/js/main.eb573266.js.map"
+    "main.7724567c.js.map": "/static/js/main.7724567c.js.map"
   },
   "entrypoints": [
     "static/css/main.9d030ed7.css",
-    "static/js/main.eb573266.js"
+    "static/js/main.7724567c.js"
   ]
 }
